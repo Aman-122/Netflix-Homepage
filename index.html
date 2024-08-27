@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Netflix Clone</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#">Netflix</a>
+            </div>
+            <ul id="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">TV Shows</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">New & Popular</a></li>
+                <li><a href="#">My List</a></li>
+            </ul>
+
+            <div class="search-box">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="profile">
+                <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/366be133850498.56ba69ac36858.png"
+                    alt="Profile">
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <div id="hero-carousel" class="hero-carousel">
+            <!-- Hero content will be dynamically added here -->
+        </div>
+
+
+        <!-- Movie Sections -->
+        <section class="movie-section">
+            <h2>Popular on Netflix</h2>
+            <div class="movie-row" id="popular-movies"></div>
+        </section>
+
+        <section class="movie-section">
+            <h2>Trending Now</h2>
+            <div class="movie-row" id="trending-movies"></div>
+        </section>
+
+        <section class="movie-section">
+            <h2>High Rated</h2>
+            <div class="movie-row" id="high-rated-movies"></div>
+        </section>
+
+        <!-- Movie Modal -->
+        <div id="movie-modal" class="movie-modal">
+            <div class="modal-content">
+                <span id="close-modal" class="close">&times;</span>
+                <h2 id="modal-title"></h2>
+                <p id="modal-description"></p>
+                <button id="download-button">Download</button>
+            </div>
+        </div>
+        <!-- Footer Section -->
+        <footer>
+            <div class="footer-container">
+                <div class="footer-column">
+                    <h3>About Us</h3>
+                    <p>We are a fictional streaming service providing you with the latest movies and TV shows.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <div class="contact">
+                    
+                            <a href="mailto:amanguptajay328@gmail.com">Email: amanguptajay328@gmail.com</a>
+                             <a href="tel:+917477343931">Mobile: 7477343931</a>
+                    
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/sanusanu.gupta.739?mibextid=ZbWKwL"><img
+                                src="https://1.bp.blogspot.com/-S8HTBQqmfcs/XN0ACIRD9PI/AAAAAAAAAlo/FLhccuLdMfIFLhocRjWqsr9cVGdTN_8sgCPcBGAYYCw/s1600/f_logo_RGB-Blue_1024.png"
+                                alt="Facebook"></a>
+                        <a href="https://github.com/Aman-122"><img
+                                src="https://cdn0.iconfinder.com/data/icons/shift-logotypes/32/Github-256.png"
+                                alt="github"></a>
+                        <a href="https://www.instagram.com/_aman_gupta_0?igsh=Mzd3Y3FkdG85ZWJn"><img
+                                src="https://clipart.info/images/ccovers/1516920567instagram-png-logo-transparent.png"
+                                alt="Instagram"></a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Netflix Clone. All rights reserved.</p>
+            </div>
+        </footer>
+
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
